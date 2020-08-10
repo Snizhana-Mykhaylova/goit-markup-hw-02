@@ -1,0 +1,134 @@
+/* primary text color #757575;*/
+/* title text color #212121*/
+/* accent text color #2196F3 */
+/* white twxt color */
+
+/* primary  bg color  #E5E5E5;*/
+/* secondary bg color #E5E5E5;*/
+/* accent  bg color #2F303A;*/
+/* color bg white #FFFFFF;*/
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-text-color: #ffffff;
+
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #f5f4fa;
+  --accent-bg-color: #2f303a;
+  --color-bg-white: #ffffff;
+
+  --primary-text-color-button: #212121;
+  --primary-bgc-button: #ffffff;
+  --secondary-text-color-button: #ffffff;
+  --secondary-bgc-button: #2196f3;
+}
+
+/* general styles */
+
+main {
+  background-color: #e5e5e5;
+}
+
+/* discharge */
+
+.list {
+  list-style: none;
+}
+
+/* index.html */
+a {
+  text-decoration: none;
+}
+
+/* header */
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.studio {
+  color: var(--accent-text-color);
+}
+
+.page-nav-link {
+  color: var(--title-text-color);
+}
+.page-nav-link:hover,
+.page-nav-link:focus {
+  color: var(--accent-text-color);
+}
+.contact-link {
+  color: var(--primary-text-color);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-text-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--accent-bg-color);
+}
+.hero-title {
+  color: var(--white-text-color);
+}
+.button {
+  color: var(--secondary-text-color-button);
+  background-color: var(--secondary-bgc-button);
+}
+
+/* Advantages */
+.advantages-list-item > h2 {
+  color: var(--title-text-color);
+}
+.advantages-list-item > p {
+  color: var(--primary-text-color);
+}
+
+/* Works */
+.work-title {
+  color: var(--title-text-color);
+}
+/* staff */
+.staff-section {
+  background-color: #f5f4fa;
+}
+.staff-list-item > h2 {
+  color: var(--title-text-color);
+}
+.staff-list-item > p {
+  color: var(--primary-text-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--accent-bg-color);
+}
+footer > .logo {
+  color: var(--accent-text-color);
+}
+
+footer > .logo > .studio {
+  color: var(--white-text-color);
+}
+footer > address {
+  color: var(--white-text-color);
+}
+footer > address > span {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio.html */
+.selector-list-button {
+  color: var(--primary-text-color-button);
+  background-color: var(--primary-bgc-button);
+}
+
+.selector-list-button:hover,
+.selector-list-button:focus {
+  color: var(--secondary-text-color-button);
+  background-color: var(--secondary-bgc-button);
+}
