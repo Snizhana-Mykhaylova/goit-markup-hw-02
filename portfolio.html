@@ -4,99 +4,156 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web studio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header>
-      <!-- site nav -->
-      <nav>
-        <a href="./">Web Studio</a>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+      <nav class="page-nav">
+        <a class="logo" href="./">Web <span class="studio">Studio</span> </a>
+        <ul class="nav-list list">
+          <li><a class="page-nav-link" href="">Студия</a></li>
+          <li>
+            <a class="page-nav-link" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li><a class="page-nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="contact list">
         <li>
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com"</a>
+          <a class="contact-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com"</a
+          >
         </li>
       </ul>
     </header>
-    <!-- selector -->
-    <ul>
-      <li><a href="">Все</a></li>
-      <li><a href="">Веб-сайты</a></li>
-      <li><a href="">Приложения</a></li>
-      <li><a href="">Дизайн</a></li>
-      <li><a href="">Маркетинг</a></li>
-    </ul>
-    <!-- works -->
-    <section>
-      <li>
-        <img src="./img/img-7.jpg" alt="картинка ноутбука" width="370" />
-        <h1>Технокряк</h1>
-        <p>Веб-сайт</p>
-      </li>
-      <li>
-        <img
-          src="./img/img-8.jpg"
-          alt="постер с изображением двух баскетболистов"
-          width="370"
-        />
-        <h1>Постер New Orlean vs Golden Star</h1>
-        <p>Дизайн</p>
-      </li>
-      <li>
-        <img
-          src="./img/img-9.jpg"
-          alt="логотип рыбного ресторана"
-          width="370"
-        />
-        <h1>Ресторан Seafood</h1>
-        <p>Приложение</p>
-      </li>
-      <li>
-        <img src="./img/img-10.jpg" alt="фото наушников" width="370" />
-        <h1>Проект Prime</h1>
-        <p>Маркетинг</p>
-      </li>
+    <main>
+      <!-- selector -->
+      <ul class="selector-list list">
+        <li class="selector-list-item">
+          <a class="selector-list-button" href="">Все</a>
+        </li>
+        <li class="selector-list-item">
+          <a class="selector-list-button" href="">Веб-сайты</a>
+        </li>
+        <li class="selector-list-item">
+          <a class="selector-list-button" href="">Приложения</a>
+        </li>
+        <li class="selector-list-item">
+          <a class="selector-list-button" href="">Дизайн</a>
+        </li>
+        <li class="selector-list-item">
+          <a class="selector-list-button" href="">Маркетинг</a>
+        </li>
+      </ul>
+      <!-- works -->
+      <section class="gallery">
+        <ul class="gallery-list list">
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-7.jpg"
+              alt="картинка ноутбука"
+              width="370"
+            />
+            <h1 class="gallery-title">Технокряк</h1>
+            <p class="gallery-text">Веб-сайт</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-8.jpg"
+              alt="постер с изображением двух баскетболистов"
+              width="370"
+            />
+            <h1 class="gallery-title">Постер New Orlean vs Golden Star</h1>
+            <p class="gallery-text">Дизайн</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-9.jpg"
+              alt="логотип рыбного ресторана"
+              width="370"
+            />
+            <h1 class="gallery-title">Ресторан Seafood</h1>
+            <p class="gallery-text">Приложение</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-10.jpg"
+              alt="фото наушников"
+              width="370"
+            />
+            <h1 class="gallery-title">Проект Prime</h1>
+            <p class="gallery-text">Маркетинг</p>
+          </li>
 
-      <li>
-        <img src="./img/img-11.jpg" alt="две коробки" width="370" />
-        <h1>Проект Boxes</h1>
-        <p>Приложение</p>
-      </li>
-      <li>
-        <img src="./img/img-12.jpg" alt="монитор" width="370" />
-        <h1>Inspiration has no Borders</h1>
-        <p>Веб-сайт</p>
-      </li>
-      <li>
-        <img src="./img/img-13.jpg" alt="книга" width="370" />
-        <h1>Издание Limited Edition</h1>
-        <p>Дизайн</p>
-      </li>
-      <li>
-        <img src="./img/img-14.jpg" alt="лейбл" width="370" />
-        <h1>Проект LAB</h1>
-        <p>Маркетинг</p>
-      </li>
-      <li>
-        <img src="./img/img-15.jpg" alt="ноутбук" width="370" />
-        <h1>Growing Business</h1>
-        <p>Приложение</p>
-      </li>
-    </section>
-    <footer>
-      <a href="./">Web Studio</a>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-11.jpg"
+              alt="две коробки"
+              width="370"
+            />
+            <h1 class="gallery-title">Проект Boxes</h1>
+            <p class="gallery-text">Приложение</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-12.jpg"
+              alt="монитор"
+              width="370"
+            />
+            <h1 class="gallery-title">Inspiration has no Borders</h1>
+            <p class="gallery-text">Веб-сайт</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-13.jpg"
+              alt="книга"
+              width="370"
+            />
+            <h1 class="gallery-title">Издание Limited Edition</h1>
+            <p class="gallery-text">Дизайн</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-14.jpg"
+              alt="лейбл"
+              width="370"
+            />
+            <h1 class="gallery-title">Проект LAB</h1>
+            <p class="gallery-text">Маркетинг</p>
+          </li>
+          <li class="gallery-list-item">
+            <img
+              class="gallery-img"
+              src="./img/img-15.jpg"
+              alt="ноутбук"
+              width="370"
+            />
+            <h1 class="gallery-title">Growing Business</h1>
+            <p class="gallery-text">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <a class="logo" href="./">Web <span class="studio">Studio</span></a>
       <address>
         г. Киев, пр-т Леси Украинки, 26 <br />
-        info&#64;example.com <br />
-        +38 099 111 11 11
+        <span
+          >info&#64;example.com <br />
+          +38 099 111 11 11</span
+        >
       </address>
     </footer>
   </body>
