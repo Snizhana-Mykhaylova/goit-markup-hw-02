@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -12,7 +16,7 @@
       <nav class="page-nav">
         <a class="logo" href="./">Web <span class="studio">Studio</span> </a>
         <ul class="nav-list list">
-          <li><a class="page-nav-link" href="">Студия</a></li>
+          <li><a class="page-nav-link" href="./index.html">Студия</a></li>
           <li>
             <a class="page-nav-link" href="./portfolio.html">Портфолио</a>
           </li>
@@ -38,30 +42,31 @@
       </section>
       <!--Преимущества-->
       <section class="advantages">
+        <h2>Преимущества</h2>
         <ul class="advantages-list list">
           <li class="advantages-list-item">
-            <h2>Внимание к деталям</h2>
+            <h3>Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="advantages-list-item">
-            <h2>Пунктуальность</h2>
+            <h3>Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="advantages-list-item">
-            <h2>Планирование</h2>
+            <h3>Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="advantages-list-item">
-            <h2>Современные технологии</h2>
+            <h3>Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -86,41 +91,51 @@
       </section>
       <!--Наша команда-->
       <section class="staff-section">
-        <h2>Наша команда</h2>
+        <h2 class="staff-title">Наша команда</h2>
         <ul class="staff-list list">
           <li class="staff-list-item">
             <img src="./img/img-3.jpg" alt="фото" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="staff-name">Игорь Демьяненко</h3>
+            <p class="staff-profecion">Product Designer</p>
           </li>
           <li class="staff-list-item">
             <img src="./img/img-4.jpg" alt="фото" width="270" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="staff-name">Ольга Репина</h3>
+            <p class="staff-profecion">Frontend Developer</p>
           </li>
 
           <li class="staff-list-item">
             <img src="./img/img-5.jpg" alt="фото" width="270" />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="staff-name">Николай Тарасов</h3>
+            <p class="staff-profecion">Marketing</p>
           </li>
 
           <li class="staff-list-item">
             <img src="./img/img-6.jpg" alt="фото" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="staff-name">Михаил Ермаков</h3>
+            <p class="staff-profecion">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer class="footer">
-      <a class="logo" href="./">Web <span class="studio">Studio</span></a>
+    <footer>
+      <a class="footer logo" href="./"
+        >Web <span class="footer studio">Studio</span>
+      </a>
       <address>
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        <span
-          >info&#64;example.com <br />
-          +38 099 111 11 11</span
-        >
+        <p class="post-address">г. Киев, пр-т Леси Украинки, 26</p>
+        <ul class="contact list">
+          <li>
+            <a class="contact-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li>
+            <a class="contact-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com"</a
+            >
+          </li>
+        </ul>
       </address>
     </footer>
   </body>
