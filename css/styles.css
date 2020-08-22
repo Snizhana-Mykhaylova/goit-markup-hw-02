@@ -13,6 +13,8 @@
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --white-text-color: #ffffff;
+  --primary-font-size: 14px;
+  /* --primary-font-weight:  */
 
   --primary-bg-color: #e5e5e5;
   --secondary-bg-color: #f5f4fa;
@@ -32,6 +34,7 @@ body {
   background-color: (var(--primary-bg-color));
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: var(--primary-font-size);
 }
 
 .link {
@@ -70,7 +73,6 @@ footer .accent {
 .nav-list .link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
 }
@@ -86,7 +88,6 @@ footer .accent {
 .contact.link {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -130,7 +131,6 @@ footer .accent {
 }
 .advantages-item > p {
   color: var(--primary-text-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -170,7 +170,6 @@ footer .accent {
 /* Footer */
 footer {
   background-color: var(--accent-bg-color);
-  font-size: 14px;
   line-height: 1.71;
 }
 
